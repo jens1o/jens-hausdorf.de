@@ -46,6 +46,7 @@ function getAge(string $string): int {
         return 42;
     }
 }
+
 /**
  * Returns a random greeting in a programming language I know.
  *
@@ -73,6 +74,7 @@ $smarty->registerPlugin('modifier', 'age', 'getAge');
 $smarty->registerPlugin('function', 'randomGreeting', 'getRandomGreeting');
 
 $lang = LanguageUtil::getPreferredLanguage(['en', 'de'], 'en');
+
 $smarty->assign('language', $lang);
 $smarty->assign('statusCode', $_SERVER['SERVER_PROTOCOL'] . ' ' . http_response_code());
 $smarty->assign('useGridLayout', isset($_GET['3columns']));
