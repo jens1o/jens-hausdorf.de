@@ -18,7 +18,7 @@
 
     <p class="msg">Hi! I'm sorry, but <strong>your browser is not modern</strong> and does not provide awesome techniques which are required by this page. I recommend you to <a rel="nofollow noopener noreferrer" href="https://www.mozilla.org/firefox/">switch to a modern browser</a>.</p>
 
-    <div class="grid">
+    <div class="grid{if $useGridLayout} threeColumns{/if}">
         <header>
             <h3>{randomGreeting|escape}</h3>
             <pre>{$statusCode}</pre>
