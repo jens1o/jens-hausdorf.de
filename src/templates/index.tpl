@@ -1,0 +1,12 @@
+{include file="header.tpl"}
+            {html_image file='https://www.gravatar.com/avatar/8b464a8b587c833f435541619d605f40?s=200' class='avatar' alt='My avatar'}
+            {if $language === 'en'}
+                <p>Hi! I'm Jens, I'm living in Germany and I'm {'2002-07-12'|age} years old. I develop in various languages such as PHP, HTML, CSS, (vanilla) TS/JS (including but not limited to node.js), C#, Java, C and some NASM Assembler since {'2007-07-12'|age} years.</p>
+                <p>I also have experiences with the HTTP Protocol, Redis and SQL because I love new techniques and I love to code. Not the plain code I wrote up here... but also <a href="https://code.visualstudio.com" rel="nofollow noopener noreferrer">Visual Studio Code</a> where I maintain and contribute to some extensions such as <a href="https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons" rel="nofollow noopener noreferrer">vscode-icons</a>.</p>
+                <p>Some of my projects are open-source and hosted on <a href="https://github.com/jens1o" rel="nofollow noopener noreferrer">GitHub</a>. I think that's enough. But, who are you? Get in touch with me:</p>
+            {elseif $language === 'de'}
+                <p>Hallo! Ich bin Jens, lebe in Deutschland und bin {'2002-07-12'|age} Jahre alt. Ich entwickle in zahlreichen Sprachen wie PHP, HTML, CSS, (vanilla) TS/JS (auch node.js), C#, Java, C und etwas NASM Assembler seit {'2007-07-12'|age} Jahren.</p>
+                <p>Ich habe auch Erfahrungen mit dem HTTP Protokoll, Redis und SQL weil ich neue Techniken liebe, ebenso wie das Coden ansich. Nicht nur den Code den ich hier hingeschrieben habe... Aber auch <a href="https://code.visualstudio.com" rel="nofollow noopener noreferrer">Visual Studio Code</a>, wo ich Erweiterungen stetig verbessere, (mit-)betreibe und zu anderen beitrage, z.B. <a href="https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons" rel="nofollow noopener noreferrer">vscode-icons</a>.</p>
+                <p>Einiger meiner Projekte sind Open-Source und auf <a href="https://github.com/jens1o" rel="nofollow noopener noreferrer">GitHub</a> gehostet. Aber ich glaube, nun habe ich genug über mich niedergeschrieben. Aber wer bist du? Kontaktier' mich doch:</p>
+            {/if}
+{include file="footer.tpl"}

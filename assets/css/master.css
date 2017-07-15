@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+@supports(display: grid) {
+    .msg {
+        display: none;
+    }
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+
+html, body {
+    font-family: 'Segoe UI', 'Lato', serif;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background-color: #0072C5;
+    max-width: 900px;
+}
+
+.msg {
+    background-color: #0060B4;
+    color: #fff;
+    padding: 0.75em; /* ~ 12px */
+    border-radius: 4px;
+}
+
+
+.grid {
+    display: grid;
+}
+
+.grid.threeColumns {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+header, article, footer {
+    padding: 3px;
+}
+
+a {
+    display: inline-block;
+}
+
+.footerLinks {
+    list-style-type: none;
+}
+.footerLinks li {
+    display: inline;
+}
+
+#discord-copy {
+    cursor: pointer;
+}
+

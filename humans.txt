@@ -1,0 +1,11 @@
+/* TEAM */
+    Chef: Jens Hausdorf
+    Contact: hello [at] jens-hausdorf.de
+    Twitter: @jens1o
+    From: Baden-Wuerttemberg, Germany
+
+/* SITE */
+    Last update: 2017/06/17
+    Language: English
+    Doctype: HTML5
+    IDE: Visual Studio Code, FileZilla
