@@ -1,5 +1,5 @@
 {include file="header.tpl"}
-            {html_image file='https://www.gravatar.com/avatar/8b464a8b587c833f435541619d605f40?s=200' class='avatar' alt='My avatar'}
+            <img src="https://www.gravatar.com/avatar/8b464a8b587c833f435541619d605f40?s=200" class="avatar" alt="My avatar" height="200" width="200">
             {if $language === 'en'}
                 <p>Hi! I'm Jens, I'm living in Germany and I'm {'2002-07-12'|age} years old. I develop in various languages such as PHP, HTML, CSS, (vanilla) TS/JS (including but not limited to node.js), C#, Java, C and some NASM Assembler since {'2007-07-12'|age} years.</p>
                 <p>I also have experiences with the HTTP Protocol, Redis and SQL because I love new techniques and I love to code. Not the plain code I wrote up here... but also <a href="https://code.visualstudio.com" rel="nofollow noopener noreferrer">Visual Studio Code</a> where I maintain and contribute to some extensions such as <a href="https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons" rel="nofollow noopener noreferrer">vscode-icons</a>.</p>

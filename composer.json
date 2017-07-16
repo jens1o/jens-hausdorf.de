@@ -13,11 +13,10 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=7.1",
-        "ext-mbstring": "*",
         "smarty/smarty": "^3.1"
     },
     "autoload": {
-        "psr-4": {
+        "psr-4": { 
             "jens1o\\webpage\\": "src/",
             "jens1o\\webpage\\utils\\": "src/utils/"
         }
