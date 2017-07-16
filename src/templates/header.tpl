@@ -12,6 +12,12 @@
     <link rel="stylesheet" href="assets/css/master.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link type="text/plain" rel="author" href="https://jens-hausdorf.de/humans.txt" />
+    <meta name="author" content="Jens Hausdorf">
+    <meta name="title" content="Jens Hausdorf">
+    <meta name="keywords" content="Visual Studio Code, vscode, code, vscode-icons, php, js, javascript, ts, typescript, java">
+    <meta name="description" content="The website of the {'2002-07-12'|age}-years old developer.">
+    <meta name="og:description" content="The website of the {'2002-07-12'|age}-years old developer.">
+    <meta name="theme-color" content="#0072C5">
 </head>
 <body>
     <!-- Actually, all browsers who not support css grids do not support es2017 syntax, so it's true in any case. -->
