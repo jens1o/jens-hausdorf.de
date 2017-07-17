@@ -78,4 +78,4 @@ $lang = LanguageUtil::getPreferredLanguage(['en', 'de'], 'en');
 $smarty->assign('language', $lang);
 $smarty->assign('statusCode', $_SERVER['SERVER_PROTOCOL'] . ' ' . http_response_code());
 $smarty->assign('useGridLayout', isset($_GET['3columns']));
-$smarty->display("./src/templates/index.tpl", $lang);
+$smarty->display('./src/templates/index.tpl', $lang);

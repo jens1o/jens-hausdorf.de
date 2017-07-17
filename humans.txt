@@ -5,7 +5,7 @@
     From: Baden-Wuerttemberg, Germany
 
 /* SITE */
-    Last update: 2017/06/17
-    Language: English
-    Doctype: HTML5
+    Last update: 2017/07/17
+    Language: English, German
+    Doctype: HTML5, PHP7, ES8
     IDE: Visual Studio Code, FileZilla
