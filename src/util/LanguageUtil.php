@@ -13,7 +13,7 @@ namespace jens1o\webpage\util;
 class LanguageUtil {
 
     /**
-     * Creating a class is disallowed
+     * Creating this class is disallowed
      */
     private function __construct() {}
 
@@ -29,8 +29,8 @@ class LanguageUtil {
             $queue = new \SplPriorityQueue;
 
             // extract languages and sort them by priority given by the browser
-            foreach(preg_split('#,\s*#', $_SERVER['HTTP_ACCEPT_LANGUAGE']) as $acceptedLanguage) {
-                $result = preg_split('#;\s*q=#', $acceptedLanguage, 2);
+            foreach(\preg_split('/,\s*/', $_SERVER['HTTP_ACCEPT_LANGUAGE']) as $acceptedLanguage) {
+                $result = \preg_split('/;\s*q=/', $acceptedLanguage, 2);
                 $queue->insert(self::trimLanguageCode($result[0]), isset($result[1]) ? (float) $result[1] : 1.0);
             }
 
