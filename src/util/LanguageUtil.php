@@ -20,8 +20,8 @@ class LanguageUtil {
     /**
      * Tries to find the best suitable language for this user.
      *
-     * @param array $availableLanguages
-     * @param   string  $defaultLanguage    The default language that will be shipped once we don't know
+     * @param   string[]    $availableLanguages
+     * @param   string      $defaultLanguage    The default language that will be shipped once we don't know
      * @return string
      */
     public static function getPreferredLanguage(array $availableLanguages, string $defaultLanguage): string {
@@ -51,8 +51,8 @@ class LanguageUtil {
      * Removes any suffixes from a language code.
      * Example: `de-DE` => `de`
      *
-     * @param string $langCode
-     * @return void
+     * @param   string  $langCode   The language code to be trimmed
+     * @return string
      */
     public static function trimLanguageCode(string $langCode): string {
         return \preg_replace('/-[a-z0-9]+/', '', \strtolower($langCode));
