@@ -21,7 +21,7 @@ class LanguageUtil {
      * Tries to find the best suitable language for this user.
      *
      * @param array $availableLanguages
-     * @param   string  $defaultLanguage    The default language that will be shipped once we don't know 
+     * @param   string  $defaultLanguage    The default language that will be shipped once we don't know
      * @return string
      */
     public static function getPreferredLanguage(array $availableLanguages, string $defaultLanguage): string {
