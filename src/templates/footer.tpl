@@ -26,8 +26,7 @@
                 "birthDate": "2002-07-12",
                 "email": "hello@jens-hausdorf.de",
                 "identifier": "jens1o"
-            },
-            "license": "http://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US"
+            }
         }
     </script>
 </body>
