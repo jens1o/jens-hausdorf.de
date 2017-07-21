@@ -22,4 +22,13 @@ class AgeDateTime extends \DateTime {
         return (int) $this->diff(new \DateTime)->format('%y');
     }
 
+    /**
+     * Returns how old a milestone is.
+     *
+     * @return string
+     */
+    public function __toString(): string {
+        return $this->getAge();
+    }
+
 }

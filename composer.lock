@@ -4,8 +4,65 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc9461cf827a8de6d0fc1a8def54bb82",
+    "content-hash": "f844cf96270b4d4a01ff5166d620d3f6",
     "packages": [
+        {
+            "name": "aidantwoods/secureheaders",
+            "version": "v2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aidantwoods/SecureHeaders.git",
+                "reference": "d1fd7190cec90db9826b8144d49bd9cdf8a868d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aidantwoods/SecureHeaders/zipball/d1fd7190cec90db9826b8144d49bd9cdf8a868d5",
+                "reference": "d1fd7190cec90db9826b8144d49bd9cdf8a868d5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "dev-feature/braces/position_after_return_type_hint",
+                "phpunit/phpunit": "^4.0",
+                "psr/http-message": "^1.0",
+                "zendframework/zend-diactoros": "^1.0"
+            },
+            "suggest": {
+                "aidantwoods/markdownphpdocs": "Install this on its own and add it to your path, to auto-generate documentation if contributing to this repo.",
+                "psr/http-message": "In case you want to use the PSR-7 adapter"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aidantwoods\\SecureHeaders\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aidan Woods",
+                    "email": "aidantwoods@gmail.com",
+                    "homepage": "https://aidanwoods.com"
+                }
+            ],
+            "description": "A PHP class aiming to make the use of browser security features more accessible.",
+            "homepage": "https://github.com/aidantwoods/SecureHeaders/wiki",
+            "keywords": [
+                "content-security-policy",
+                "cookie",
+                "csp",
+                "headers",
+                "hsts",
+                "secure",
+                "secureheaders"
+            ],
+            "time": "2017-07-16T12:03:06+00:00"
+        },
         {
             "name": "smarty/smarty",
             "version": "v3.1.31",

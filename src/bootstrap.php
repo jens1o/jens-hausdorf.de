@@ -21,7 +21,29 @@ use jens1o\webpage\util\{
     AgeDateTime,
     LanguageUtil
 };
+use Aidantwoods\SecureHeaders\SecureHeaders;
 
+// init SecureHeaders
+$headers = new SecureHeaders;
+
+$headers->auto();
+$headers->hsts();
+$headers->csp([
+    'default-src' => [
+        'none'
+    ],
+    'script-src' => [
+        'self'
+    ],
+    'style-src' => [
+        'self',
+        'https://fonts.googleapis.com'
+    ],
+    'img-src' => [
+        'https://www.gravatar.com'
+    ]
+]);
+$headers->apply();
 
 // init smarty
 $smarty = new Smarty;
@@ -36,14 +58,13 @@ $smarty->php_handling = Smarty::PHP_REMOVE;
  * Shortcut function for smarty
  *
  * @param   string  $string     The date in an acceptable format of what you want to know how long it has been.
- * @return int
+ * @return AgeDateTime
  */
-function getAge(string $string): int {
+function getAge(string $string): AgeDateTime {
     try {
-        return (new AgeDateTime($string))->getAge();
+        return new AgeDateTime($string);
     } catch(\Throwable $e) {
-        // noop
-        return 42;
+        throw new \RuntimeException('The provided string is not a valid date expression');
     }
 }
 
