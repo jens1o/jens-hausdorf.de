@@ -1,4 +1,4 @@
 a.footerLink {
     /* make links recognizable in footer */
-    color: $blue !important;
+    color: lighten($blue, 20) !important;
 }

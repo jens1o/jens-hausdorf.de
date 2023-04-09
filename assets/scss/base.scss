@@ -1,3 +1,8 @@
+// improve contrast to conform with WCAG
+a {
+    color: lighten($blue, 20);
+}
+
 dd {
     display: block;
     margin-inline-start: 40px;
