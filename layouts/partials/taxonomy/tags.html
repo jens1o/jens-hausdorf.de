@@ -1,0 +1,12 @@
+<dl class="tags">
+    <dt>Tags:</dt>
+
+    {{- range $index, $el := . -}}
+    <!-- {{- if gt $index 0 }}
+    <span class="separator">•</span>
+    {{- end }} -->
+    <dd class="tag">
+        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    </dd>
+    {{- end -}}
+</dl>

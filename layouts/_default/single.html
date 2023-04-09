@@ -1,0 +1,25 @@
+{{ define "title"}}
+{{ .Title }} | {{ .Site.Params.author }}
+{{ end }}
+
+
+{{ define "main" }}
+<div class="postWrapper">
+    <h1>{{ .Title }}</h1>
+    <section class="postMetadata">
+        {{ with .GetTerms "tags" }}{{ partial "taxonomy/tags.html" . }}{{ end }}
+        <dl class="lastUpdate">
+            <dt>Last update:</dt>
+            {{ $formattedDate := .Date.Format "2006-01-02T15:04:05Z0700" }}
+            <dd><time datetime="{{ $formattedDate }}">{{ .Date }}</time></dd>
+        </dl>
+        <dl class="readingTime">
+            <dt>Estimated reading time:</dt>
+            <dd>{{ math.Round (div (countwords .Content) 220.0) }} minutes</dd>
+        </dl>
+    </section>
+    <div>
+        {{ .Content }}
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,54 @@
+baseurl = "https://jens-hausdorf.de"
+title = "Jens Hausdorf"
+theme = "nightfall"
+languagecode = "en"
+defaultContentLanguage = "en"
+
+paginate = 20
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+author = "Jens Hausdorf"
+user = "jens1o"
+hostname = "jens-hausdorf.de"
+
+[taxonomies]
+# category = "categories"
+# series = "series"
+tag = "tags"
+
+# Social links
+[[params.social]]
+name = "GitHub"
+weight = 1
+url = "https://github.com/jens1o"
+
+[[params.social]]
+name = "Mastodon"
+weight = 2
+url = "https://chaos.social/@jens1o"
+
+[[params.social]]
+name = "LinkedIn"
+weight = 3
+url = "https://www.linkedin.com/in/jens-hausdorf-jens1o/"
+
+
+# [[params.social]]
+#   name = "Gitlab"
+#   icon = "fa fa-gitlab fa-2x"
+#   weight = 4
+#   url = "https://gitlab.com/jens1o"
+
+# Menu links
+[[menu.header]]
+name = "Blog"
+weight = 1
+url = "posts/"
+
+[[menu.header]]
+name = "About"
+weight = 2
+url = "about/"

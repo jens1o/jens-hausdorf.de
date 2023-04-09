@@ -1,0 +1,24 @@
+dd {
+    display: block;
+    margin-inline-start: 40px;
+}
+
+.postMetadata {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+    }
+
+    >dl {
+        padding: 10px 20px;
+        margin: 0;
+        display: inline-block;
+        font-family: "Fira Mono", monospace;
+        background-color: $black;
+        padding: 10px;
+        margin-left: 5px;
+    }
+}

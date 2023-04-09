@@ -1,0 +1,18 @@
+.tags {
+    padding: 0;
+    display: inline-block;
+    font-family: "Fira Mono", monospace;
+    background-color: $black;
+    padding: 10px;
+    margin-left: 5px;
+
+    >dt {
+        display: inline;
+    }
+
+    >dd {
+        >::before {
+            content: "#";
+        }
+    }
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jens Hausdorf</title>
+    <link>https://jens-hausdorf.de/</link>
+    <description>Recent content on Jens Hausdorf</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0200</lastBuildDate><atom:link href="https://jens-hausdorf.de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>https://jens-hausdorf.de/about/</link>
+      <pubDate>Thu, 30 Mar 2023 15:15:36 +0200</pubDate>
+      
+      <guid>https://jens-hausdorf.de/about/</guid>
+      <description>Personal Hey!
+I&amp;rsquo;m Jens and I am 20 years old.
+Equipment I currently use a Thinkpad L14 for non-work purposes.</description>
+    </item>
+    
+    <item>
+      <title>Hello, World!</title>
+      <link>https://jens-hausdorf.de/posts/hello-world/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0200</pubDate>
+      
+      <guid>https://jens-hausdorf.de/posts/hello-world/</guid>
+      <description>I&amp;rsquo;m back. Let&amp;rsquo;s rewind what happened in the last few years.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jens-hausdorf.de/tags/general/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jens-hausdorf.de/tags/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jens-hausdorf.de/tags/personal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jens-hausdorf.de/tags/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impressum</title>
+      <link>https://jens-hausdorf.de/legal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jens-hausdorf.de/legal/</guid>
+      <description>Anbieter Jens Hausdorf
+Pfinztalstraße 76
+76227 Karlsruhe
+Deutschland
+Kontaktmöglichkeiten E-Mail Adresse: mail@jens-hausdorf.de
+Telefon: +49 1578 8266361
+Journalistisch-redaktionelle Angebote Inhaltlich verantwortlich: Jens Hausdorf (Adresse wie oben)</description>
+    </item>
+    
+  </channel>
+</rss>
