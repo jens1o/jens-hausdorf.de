@@ -62,7 +62,7 @@ Yet it worked - and I have received a few e-mails from folks that were using it!
 The first e-mail, the first feedback from users in the guest book I had then.
 Wow.
 It felt like… I don't know --- incredible.
-Now I think that maybe my parents wrote some comments, but if I remember correctly, I stared at the IP addresses - and they were different to what we had back then.
+Now I think that maybe my parents wrote some comments, but if I remember correctly, I stared at the IP addresses -- and they were different to what we had back then.
 (So maybe they *were* really existing humans that found my website on their own?)
 
 However, it was prior to 2013 where I started to get creative with computers.
@@ -203,7 +203,7 @@ In the first attempt of the eighth grade, I learned to open up and then, in the 
 I also started doing my very own extracurricular activity.
 It was concerned to teach kids in fifth, sixth and seventh grade the basics of presenting.
 The next school year, I changed the subject of the extracurricular activity.
-Then, it was concerned with presenting as well as programming.
+Then, it was concerned with presenting as well as programming (based on the graphical programming language Scratch).
 I pursued that until Covid came.
 
 The new classmates were great, and I made a lot of connections.
@@ -271,7 +271,7 @@ I'm thrilled to participate at the next event!
 
 Then, Covid came.
 The school was closed at first.
-I learned self-responsibility and self-organization here.
+I learned self-responsibility and self-organization around this time.
 That worked quite well, and it was a chill time.
 
 During the summer vacation in 2020, I worked at Mozilla and got to write Rust as well as C++ code professionally.
@@ -282,9 +282,9 @@ Also, through a virtual Jugend Hackt event during the Covid pandemic, I met my f
 I see this as another step in my personal development.
 
 I used my improving software engineering skills (not just programming anymore) to ease the publication of our Graduation newspaper (Abizeitung).
-I engineered a website that enabled peers, among other things, write comments to other peers, to gather and vote on citations, fill personal information, write course texts as well as vote and submit memes.
-It also featured ranking and a poll system.
-All of that was containerized, which simplified both development and operation.
+I engineered a website that enabled peers, among other things, to write comments to other peers, to gather and vote on citations, fill personal information, write course texts as well as to vote on and submit memes.
+It also featured a ranking and a poll system.
+All of that was containerized, which simplified both development and operations.
 Then I wrote a Python script that took the data and some assets and generated an Abizeitung out of it using Scribus's API.
 Through that, layouting was a lot easier, the data collection was simplified and it was definitely worth it.
 We could test changes to the layout much faster as it was defined in code.
