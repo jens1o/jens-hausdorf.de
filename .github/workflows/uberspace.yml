@@ -13,6 +13,7 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "latest"
+          extended: true
       - name: Build site on Uberspace
         run: hugo --minify
       - name: rsync deployments
