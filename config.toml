@@ -3,6 +3,7 @@ title = "Jens Hausdorf"
 theme = "nightfall"
 languagecode = "en"
 defaultContentLanguage = "en"
+enableRobotsTXT = true
 
 paginate = 20
 
