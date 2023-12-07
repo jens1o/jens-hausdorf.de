@@ -11,7 +11,7 @@
         <dl class="lastUpdate">
             <dt>Last update:</dt>
             {{ $formattedDate := .Date.Format "2006-01-02T15:04:05Z0700" }}
-            <dd><time datetime="{{ $formattedDate }}">{{ .Date }}</time></dd>
+            <dd><time datetime="{{ $formattedDate }}">{{ $formattedDate }}</time></dd>
         </dl>
         <dl class="readingTime">
             <dt>Estimated reading time:</dt>
