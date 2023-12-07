@@ -1,13 +1,13 @@
 ---
 title: "About me"
-date: 2023-04-10T02:27:36+02:00
+date: 2023-12-07T15:05:47.114Z
 ---
 
 ## Personal
 
 Hey!
 
-I'm Jens and I am 20 years old. You can learn more about me in this [blog post](/posts/hello-world).
+I'm Jens and I am 21 years old. You can learn more about me in this [blog post](/posts/hello-world).
 
 ## Equipment
 
